@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 /** https://github.com/ahmedrizwan/RxRealmRetroKotlin */
 
 // TODO Other References
+/** https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-1-624ef326bff4 */
 /** https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-2-7ad0870b69ff */
 /** https://blog.aritraroy.in/30-bite-sized-pro-tips-to-become-a-better-android-developer-b311fd641089 */
 
