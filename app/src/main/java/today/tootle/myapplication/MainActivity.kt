@@ -24,16 +24,27 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        myTextView.setText("Set textView using kotlin synthetic view binding")
+        viewBindingKotlin()
+        clickListenerKotlin()
 
+    }
+
+    /** CLick listener */
+    private fun clickListenerKotlin() {
         myTextView.setOnClickListener { view: View? ->
 
             displayToast("Displaying toast using Kotlin EXTENSIONS ")
 
         }
     }
+
+    /** View binding */
+    private fun viewBindingKotlin() {
+        myTextView.setText("Set textView using kotlin synthetic view binding")
+    }
 }
 
+/** Extensions Kotlin */
 fun AppCompatActivity.displayToast(message: String) {
 
     Toast.makeText(this, message, Toast.LENGTH_LONG).show();
