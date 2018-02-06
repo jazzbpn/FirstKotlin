@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 /** 2. Initialize Github Repository and push project with .gitignore */
 /** 3. Kotlin View Binding using kotlin-android-extensions */
 /** 4. OnClick TextView*/
+/** 5. Kotlin EXTENSION to display TOAST */
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,8 +24,14 @@ class MainActivity : AppCompatActivity() {
 
         myTextView.setOnClickListener { view: View? ->
 
-            Toast.makeText(this, "OnClick testing in kotlin", Toast.LENGTH_LONG).show()
+            displayToast("Displaying toast using Kotlin EXTENSIONS ")
 
         }
     }
+}
+
+fun AppCompatActivity.displayToast(message: String) {
+
+    Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+
 }
