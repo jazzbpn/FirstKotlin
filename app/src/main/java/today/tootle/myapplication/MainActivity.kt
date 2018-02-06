@@ -10,6 +10,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 /** https://medium.com/@ahmedrizwan/android-programming-with-kotlin-6ce3f9b0cbe6 */
 /** https://medium.com/@ahmedrizwan/kotlin-retrofit-rxandroid-realm-39d7be5dc9dc  */
 /** https://medium.freecodecamp.org/rxandroid-and-kotlin-part-1-f0382dc26ed8 */
+/** https://github.com/ahmedrizwan/RxRealmRetroKotlin */
+
+// TODO Other References
+/** https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-2-7ad0870b69ff */
 
 /** TODO Implementing on project */
 /** 1. Project Setup */
@@ -26,6 +30,14 @@ class MainActivity : AppCompatActivity() {
 
         viewBindingKotlin()
         clickListenerKotlin()
+
+        rxAndroidKotline();
+
+    }
+
+    private fun rxAndroidKotline() {
+
+
 
     }
 
