@@ -6,8 +6,12 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
+//  TODO Learning Reference
+/** https://medium.com/@ahmedrizwan/android-programming-with-kotlin-6ce3f9b0cbe6 */
+/** https://medium.com/@ahmedrizwan/kotlin-retrofit-rxandroid-realm-39d7be5dc9dc  */
+/** https://medium.freecodecamp.org/rxandroid-and-kotlin-part-1-f0382dc26ed8 */
 
-/** TODO Learning */
+/** TODO Implementing on project */
 /** 1. Project Setup */
 /** 2. Initialize Github Repository and push project with .gitignore */
 /** 3. Kotlin View Binding using kotlin-android-extensions */
