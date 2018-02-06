@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 // TODO Other References
 /** https://blog.aritraroy.in/the-missing-rxjava-2-guide-to-supercharge-your-android-development-part-2-7ad0870b69ff */
+/** https://blog.aritraroy.in/30-bite-sized-pro-tips-to-become-a-better-android-developer-b311fd641089 */
 
 /** TODO Implementing on project */
 /** 1. Project Setup */
